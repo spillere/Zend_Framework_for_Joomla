@@ -1,5 +1,5 @@
 <?php
-
+defined('JPATH_BASE') or die();
 /**
  * Zend Framework
  *
@@ -23,7 +23,7 @@
 /**
  * Zend_Gdata_App_Util
  */
-require_once 'Zend/Gdata/App/Util.php';
+require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'App'.DS.'Util.php');
 
 /**
  * Provides a mechanism to build a query URL for Gdata services.
@@ -398,7 +398,7 @@ class Zend_Gdata_Query
         if (method_exists($this, $method)) {
             return call_user_func(array(&$this, $method));
         } else {
-            require_once 'Zend/Gdata/App/Exception.php';
+			require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'App'.DS.'Exception.php');
             throw new Zend_Gdata_App_Exception('Property ' . $name . '  does not exist');
         }
     }
@@ -409,7 +409,7 @@ class Zend_Gdata_Query
         if (method_exists($this, $method)) {
             return call_user_func(array(&$this, $method), $val);
         } else {
-            require_once 'Zend/Gdata/App/Exception.php';
+            require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'App'.DS.'Exception.php');
             throw new Zend_Gdata_App_Exception('Property ' . $name . '  does not exist');
         }
     }

@@ -23,7 +23,7 @@ defined('JPATH_BASE') or die();
 /**
  * Zend_Gdata_App_Exception
  */
-require_once (JPATH_LIBRARIES.DS.'zend'.DS.'App'.DS.'Exception.php');
+require_once (JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'App'.DS.'Exception.php');
 
 /**
  * Gdata exceptions
