@@ -98,8 +98,8 @@ require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'Extension'.DS
 class Zend_Gdata_YouTube_VideoEntry extends Zend_Gdata_YouTube_MediaEntry
 {
 
-    const YOUTUBE_DEVELOPER_TAGS_SCHEMA = 'http://gdata.youtube.com/schemas/2007/developertags.cat';
-    const YOUTUBE_CATEGORY_SCHEMA = 'http://gdata.youtube.com/schemas/2007/categories.cat';
+    const YouTube_DEVELOPER_TAGS_SCHEMA = 'http://gdata.YouTube.com/schemas/2007/developertags.cat';
+    const YouTube_CATEGORY_SCHEMA = 'http://gdata.YouTube.com/schemas/2007/categories.cat';
     protected $_entryClassName = 'Zend_Gdata_YouTube_VideoEntry';
 
     /**
@@ -926,7 +926,7 @@ class Zend_Gdata_YouTube_VideoEntry extends Zend_Gdata_YouTube_MediaEntry
     /**
      * Gets the category of this video, if available.  The category is returned
      * as a string. Valid categories are found at:
-     * http://gdata.youtube.com/schemas/2007/categories.cat
+     * http://gdata.YouTube.com/schemas/2007/categories.cat
      * If the category is not set, null is returned.
      *
      * @return string|null The category of this video
@@ -937,7 +937,7 @@ class Zend_Gdata_YouTube_VideoEntry extends Zend_Gdata_YouTube_MediaEntry
         $categories = $this->getMediaGroup()->getCategory();
         if ($categories != null) {
             foreach($categories as $category) {
-                if ($category->getScheme() == self::YOUTUBE_CATEGORY_SCHEMA) {
+                if ($category->getScheme() == self::YouTube_CATEGORY_SCHEMA) {
                     return $category->getText();
                 }
             }
@@ -954,7 +954,7 @@ class Zend_Gdata_YouTube_VideoEntry extends Zend_Gdata_YouTube_MediaEntry
     public function setVideoCategory($category)
     {
         $this->ensureMediaGroupIsNotNull();
-        $this->getMediaGroup()->setCategory(array(new Zend_Gdata_Media_Extension_MediaCategory($category, self::YOUTUBE_CATEGORY_SCHEMA)));
+        $this->getMediaGroup()->setCategory(array(new Zend_Gdata_Media_Extension_MediaCategory($category, self::YouTube_CATEGORY_SCHEMA)));
         return $this;
     }
 
@@ -975,7 +975,7 @@ class Zend_Gdata_YouTube_VideoEntry extends Zend_Gdata_YouTube_MediaEntry
         if ($categoryArray != null) {
             foreach ($categoryArray as $category) {
                 if ($category instanceof Zend_Gdata_Media_Extension_MediaCategory) {
-                    if ($category->getScheme() == self::YOUTUBE_DEVELOPER_TAGS_SCHEMA) {
+                    if ($category->getScheme() == self::YouTube_DEVELOPER_TAGS_SCHEMA) {
                         $developerTags[] = $category->getText();
                     }
                 }
@@ -994,7 +994,7 @@ class Zend_Gdata_YouTube_VideoEntry extends Zend_Gdata_YouTube_MediaEntry
     public function addVideoDeveloperTag($developerTag)
     {
         $this->ensureMediaGroupIsNotNull();
-        $newCategory = new Zend_Gdata_Media_Extension_MediaCategory($developerTag, self::YOUTUBE_DEVELOPER_TAGS_SCHEMA);
+        $newCategory = new Zend_Gdata_Media_Extension_MediaCategory($developerTag, self::YouTube_DEVELOPER_TAGS_SCHEMA);
 
         if ($this->getMediaGroup()->getCategory() == null) {
             $this->getMediaGroup()->setCategory($newCategory);

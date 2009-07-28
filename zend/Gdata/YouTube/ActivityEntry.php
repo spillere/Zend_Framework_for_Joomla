@@ -28,11 +28,11 @@ require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Entry.php');
 /**
  * @see Zend_Gdata_YouTube_Extension_VideoId
  */
-require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Youtube'.DS.'Extension'.DS.'VideoID.php');
+require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'Extension'.DS.'VideoId.php');
 /**
  * @see Zend_Gdata_YouTube_Extension_Username
  */
-require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Youtube'.DS.'Extension'.DS.'Username.php');
+require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'Extension'.DS.'Username.php');
 
 /**
  * @see Zend_Gdata_YouTube_Extension_Rating
@@ -42,7 +42,7 @@ require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Extension'.DS.'Rating.php'
 /**
  * A concrete class for working with YouTube user activity entries.
  *
- * @link http://code.google.com/apis/youtube/
+ * @link http://code.google.com/apis/YouTube/
  *
  * @category   Zend
  * @package    Zend_Gdata
@@ -53,7 +53,7 @@ require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Extension'.DS.'Rating.php'
 class Zend_Gdata_YouTube_ActivityEntry extends Zend_Gdata_Entry
 {
     const ACTIVITY_CATEGORY_SCHEME =
-        'http://gdata.youtube.com/schemas/2007/userevents.cat';
+        'http://gdata.YouTube.com/schemas/2007/userevents.cat';
 
     /**
      * The classname for individual user activity entry elements.
@@ -202,7 +202,7 @@ class Zend_Gdata_YouTube_ActivityEntry extends Zend_Gdata_Entry
      * Return the activity type that was performed.
      *
      * Convenience method that inspects category where scheme is
-     * http://gdata.youtube.com/schemas/2007/userevents.cat.
+     * http://gdata.YouTube.com/schemas/2007/userevents.cat.
      *
      * @return string|null The activity category if found.
      */

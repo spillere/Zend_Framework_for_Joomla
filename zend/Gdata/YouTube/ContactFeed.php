@@ -29,7 +29,7 @@ require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Media'.DS.'Feed.php');
 /**
  * @see Zend_Gdata_YouTube_ContactEntry
  */
-require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Youtube'.DS.'ContactEntry.php');
+require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'ContactEntry.php');
 
 
 /**

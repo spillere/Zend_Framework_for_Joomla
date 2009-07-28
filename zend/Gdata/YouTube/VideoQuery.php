@@ -34,7 +34,7 @@ require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Query.php');
 /**
  * Assists in constructing queries for YouTube videos
  *
- * @link http://code.google.com/apis/youtube/
+ * @link http://code.google.com/apis/YouTube/
  *
  * @category   Zend
  * @package    Zend_Gdata

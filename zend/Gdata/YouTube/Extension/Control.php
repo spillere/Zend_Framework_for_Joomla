@@ -28,7 +28,7 @@ require_once (JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'App'.DS.'Extension'.DS.'C
 /**
  * @see Zend_Gdata_YouTube_Extension_State
  */
-require_once (JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Youtube'.DS.'Extension'.DS.'State.php');
+require_once (JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'Extension'.DS.'State.php');
 
 
 /**

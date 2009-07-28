@@ -28,38 +28,38 @@ require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Media'.DS.'Extension'.DS.'
 /**
  * @see Zend_Gdata_YouTube_Extension_MediaContent
  */
-require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Youtube'.DS.'Extension'.DS.'MediaContent.php');
+require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'Extension'.DS.'MediaContent.php');
 
 
 /**
  * @see Zend_Gdata_YouTube_Extension_Duration
  */
-require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Youtube'.DS.'Extension'.DS.'Duration.php');
+require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'Extension'.DS.'Duration.php');
 
 
 /**
  * @see Zend_Gdata_YouTube_Extension_MediaRating
  */
-require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Youtube'.DS.'Extension'.DS.'MediaRating.php');
+require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'Extension'.DS.'MediaRating.php');
 /**
  * @see Zend_Gdata_YouTube_Extension_MediaCredit
  */
-require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Youtube'.DS.'Extension'.DS.'MediaCredit.php');
+require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'Extension'.DS.'MediaCredit.php');
 
 /**
  * @see Zend_Gdata_YouTube_Extension_Private
  */
-require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Youtube'.DS.'Extension'.DS.'Private.php');
+require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'Extension'.DS.'Private.php');
 
 /**
  * @see Zend_Gdata_YouTube_Extension_VideoId
  */
-require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Youtube'.DS.'Extension'.DS.'VideoId.php');
+require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'Extension'.DS.'VideoId.php');
 
 /**
  * @see Zend_Gdata_YouTube_Extension_Uploaded
  */
-require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Youtube'.DS.'Extension'.DS.'Uploaded.php');
+require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'Extension'.DS.'Uploaded.php');
 /**
  * This class represents the media:group element of Media RSS.
  * It allows the grouping of media:content elements that are

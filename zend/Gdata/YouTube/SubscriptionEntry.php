@@ -43,7 +43,7 @@ require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'Extension'.DS
 /**
  * @see Zend_Gdata_YouTube_Extension_PlaylistId
  */
-require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'Extension'.DS.'PlaylistID.php');
+require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'Extension'.DS.'PlaylistId.php');
 
 /**
  * @see Zend_Gdata_Media_Extension_MediaThumbnail

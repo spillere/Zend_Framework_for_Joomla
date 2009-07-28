@@ -246,11 +246,4 @@ class Zend_Gdata_Docs extends Zend_Gdata
      *         The default is a 'Zend_Gdata_Docs_DocumentListEntry'.
      * @return Zend_Gdata_Docs_DocumentListEntry The entry returned by the 
      *     service after insertion.
-     */
-    public function insertDocument($data, $uri, 
-        $className='Zend_Gdata_Docs_DocumentListEntry')
-    {
-        return $this->insertEntry($data, $uri, $className);
-    }
-
-}
+   

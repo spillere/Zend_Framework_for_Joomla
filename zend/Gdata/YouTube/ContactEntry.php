@@ -23,12 +23,12 @@ defined('JPATH_BASE') or die();
 /**
  * @see Zend_Gdata_YouTube_UserProfileEntry
  */
-require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Youtube'.DS.'UserProfileEntry.php');
+require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'UserProfileEntry.php');
 
 /**
  * @see Zend_Gdata_YouTube_Extension_Status
  */
-require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Youtube'.DS.'Extension'.DS.'Status.php');
+require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'Extension'.DS.'Status.php');
 
 /**
  * The YouTube contacts flavor of an Atom Entry with media support

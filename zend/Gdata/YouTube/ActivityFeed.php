@@ -28,12 +28,12 @@ require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Feed.php');
 /**
  * @see Zend_Gdata_YouTube_ActivityEntry
  */
-require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'Youtube'.DS.'ActivityEntry.php');
+require_once(JPATH_LIBRARIES.DS.'zend'.DS.'Gdata'.DS.'YouTube'.DS.'ActivityEntry.php');
 
 /**
  * A feed of user activity entries for YouTube
  *
- * @link http://code.google.com/apis/youtube/
+ * @link http://code.google.com/apis/YouTube/
  * @category   Zend
  * @package    Zend_Gdata
  * @subpackage YouTube
